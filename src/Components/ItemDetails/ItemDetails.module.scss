@@ -1,0 +1,39 @@
+.wrapper {
+  padding: 2rem;
+  @media screen and (min-width: 660px) {
+    display: flex;
+  }
+}
+.imgContainer {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 0.7rem;
+  flex-shrink: 0;
+  @media screen and (min-width: 660px) {
+    width: 35%;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+.content {
+  flex-grow: 1;
+  padding-top: 2.3rem;
+  @media screen and (min-width: 660px){
+  padding: 2.3rem;
+  }
+}
+.title {
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+.description {
+  font-family: "Crimson Text", sans-serif;
+  font-size :1.1rem;
+  font-weight: 300;
+  line-height: 1.65;
+  color: #6a7279;
+  margin-bottom: 0.8rem;
+}
